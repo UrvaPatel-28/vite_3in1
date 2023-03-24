@@ -1,0 +1,120 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#c19de2;
+    background-color: #7b9cec;
+
+}
+.todoapp-container{
+    min-height: 55rem;
+    width: 40rem;
+    margin: 5rem auto;
+    background-color:white;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.todoapp-container .heading{
+    font-size: 2rem;
+    background-color: #1661d3;
+    text-align: center;
+    padding: .5rem;
+    color: white;
+}
+
+.add-item-container{
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.add-item-container input{
+    width: 80%;
+    font-size: 2.5rem;
+    border: none;
+    outline: none;
+    border-bottom: solid #7b9cec 2px ;
+    padding-left:1rem;
+    background: transparent;
+
+}
+.add-item-container span{
+    width: 4rem;
+    height: 4rem;
+}
+ .addbtn{
+    width: 5rem;
+    height: 5rem;
+    font-size: 6rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1661d3;
+    color: white;
+    cursor: pointer;
+}
+.addbtn:hover{
+    color:green;
+    background-color: #eee;
+}
+
+.todo-list-items{
+    font-size: 2rem;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    margin-top: 1rem;
+ 
+   
+}
+
+.deleteall-btn{
+    font-size: 2.5rem;
+    padding: .5rem 2rem;
+    border: none;
+    background-color: #7b9cec;
+    border-radius: .5rem;
+    display: block;
+    margin:auto;
+    margin-top: 2rem;
+    
+    color: white;
+    
+    font-weight: 600;
+    cursor: pointer;
+  
+
+}
+.deleteall-btn:hover{
+    color: red;
+    background-color: #eee;
+}
+
+
+@media (max-width:600px) {
+    html{
+        font-size: 55%;
+    }
+    .todoapp-container{
+          width: 40rem;       
+    }
+}
+@media (max-width:365px) {
+    html{
+        font-size: 40%;
+    }
+    .todoapp-container{
+        width: 35rem;     
+    }
+}

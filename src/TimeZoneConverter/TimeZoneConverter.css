@@ -1,0 +1,85 @@
+.timezone-container{
+     min-height: 55rem;
+     width: 40rem;
+     margin: 5rem auto;
+     background-color: white;
+     border-radius: 2rem;
+     overflow: hidden;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 2rem;
+}
+
+.input-date{
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 4rem;
+    
+}
+.input-date h2{
+    color: blue;
+}
+
+.input-date input{
+    font-size: 2.5rem;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid;
+    text-align: center;
+    color: blue;
+}
+.india-time{
+    font-size: 2rem;
+    text-align: center;
+    line-height: 4.5rem;
+    margin-top: 1rem;
+}
+.india-time h2{
+    color: blue;
+}
+.india-time p{
+    font-size: 2.5rem;
+    word-spacing: .2rem;
+    font-weight: 600;
+}
+.to{
+    font-size: 2rem;
+    opacity: .5;
+    letter-spacing: .3rem;
+}
+
+.new-time{
+   text-align: center;
+   line-height: 5rem;
+}
+.new-time select{
+    font-size: 2.5rem;
+    width: 30rem;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid;
+    color: blue;
+    font-weight: 600;
+   
+}
+.new-time h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width:600px) {
+    html{
+        font-size: 55%;
+    }
+    .timezone-container{
+        width: 35rem;
+        
+    }
+}   
